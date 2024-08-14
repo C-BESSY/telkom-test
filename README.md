@@ -1,7 +1,7 @@
 # telkom
 
 ## Description
-Antarmuka asisten virtual yang memungkinkan pengguna berinteraksi melalui pengaturan percakapan (chat). Antarmuka harus dapat menerima pertanyaan, memberikan jawaban, dan menyimpan histori percakapan.
+Antarmuka asisten virtual yang memungkinkan pengguna berinteraksi melalui pengaturan percakapan (chat). Antarmuka dapat menerima pertanyaan, memberikan jawaban, dan menyimpan histori percakapan.
 
 ## Features
 List the features that have been implemented in your project:
