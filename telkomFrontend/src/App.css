@@ -32,6 +32,7 @@ html,
   box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
   height: 100vh;
   box-sizing: border-box;
+  overflow-y: auto;
 }
 
 .sidebar h3 {
@@ -63,6 +64,7 @@ html,
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
 }
 
 .chat-message {
@@ -73,6 +75,7 @@ html,
   line-height: 1.4;
   display: flex;
   justify-content: flex-start;
+  word-wrap: break-word;
 }
 
 .user-message {
@@ -167,6 +170,7 @@ html,
   margin-bottom: 8px;
   background-color: #f1f1f1;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .conversation-item button {
@@ -175,14 +179,4 @@ html,
   color: #333;
   cursor: pointer;
   font-size: 14px;
-}
-
-.conversation-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px;
-  margin-bottom: 8px;
-  background-color: #f1f1f1;
-  border-radius: 4px;
 }

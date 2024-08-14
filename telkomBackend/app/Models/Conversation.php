@@ -20,7 +20,7 @@ class Conversation extends Model
     public function context(): Attribute
     {
         return Attribute::make(
-            get: fn() => "user: {$this->messages()->first()->content}",
+            get: fn() => 'user: ' . ($this->messages()->first()?->content ?? ''),
         );
     }
 

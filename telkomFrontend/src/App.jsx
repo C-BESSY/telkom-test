@@ -68,11 +68,13 @@ function App() {
           </div>
           {conversations.map((conversation, index) => (
             <div key={index} className="conversation-item">
-              <button
-                onClick={() => handleChangeConversation(conversation.id)}
-              >
-                {conversation.context}
-              </button>
+              {conversation.context && (
+                <button
+                  onClick={() => handleChangeConversation(conversation.id)}
+                >
+                  {conversation.context}
+                </button>
+              )}
             </div>
           ))}
         </div>
