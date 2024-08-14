@@ -25,5 +25,3 @@ cd repository
 
 # Install dependencies
 npm install  # or yarn install
-
-![image](https://github.com/user-attachments/assets/a8221a05-06e1-4007-b13a-f337ac7016ba)
