@@ -3,10 +3,12 @@
 ## Description
 Antarmuka asisten virtual yang memungkinkan pengguna berinteraksi melalui pengaturan percakapan (chat). Antarmuka dapat menerima pertanyaan, memberikan jawaban, dan menyimpan histori percakapan.
 
-## Features
+## Features & Documentation
 List the features that have been implemented in your project:
 - New Chat
 - Conversation
+![image](https://github.com/user-attachments/assets/8215928c-70df-4c96-b9f4-c0d74e335216)
+
 
 ## Prerequisites
 List any prerequisites or dependencies needed to run the project:
